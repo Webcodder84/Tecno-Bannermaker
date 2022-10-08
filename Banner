@@ -1,2 +1,10 @@
-It is a bAnner maker and don't forget to leava a space when 
-You are writing a name.. [Sorry it is not permanent  banner)
+ ##here we importing the system
+import.os
+os.system("pkg update && pkg upgrade")
+os.system("pkg install figlet")
+os.system("clear")
+os.system("figlet -f big Tech-Banner |lolcat")
+a = input("Enter a Name [Please leave a space]: ")
+os.system("clear")
+print(os.system("figlet -m 1  " +a ))
+exit()
